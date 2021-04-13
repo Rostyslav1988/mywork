@@ -81,17 +81,17 @@
 .mobil-menu {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
   width: 100vw;
-  height: 100vh;
+  height: 480vh;
   background-color: #fff;
   padding: 48px 40px;
-  transform: translateY(-200%);
-  transition: transform 400ms linear;
+  transform: translateY(-100%), translateX(-50%);
+  transition: transform 250ms linear;
 }
 
 .is-open {
-  transform: translateY(0);
+  transform: translateY(0), translateX(-50%);
 }
 
 .mobil-menu-list__li {
