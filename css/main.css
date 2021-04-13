@@ -83,7 +83,7 @@
   top: 0;
   left: 50%;
   width: 100vw;
-  height: 480vh;
+  height: 100vh;
   background-color: #fff;
   padding: 48px 40px;
   transform: translateY(-100%), translateX(-50%);
