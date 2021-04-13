@@ -9,11 +9,7 @@
   --background-color: #F5F4FA;
   --fill: #AFB1B8;
 }
-body,
-html {
-  overflow-x: hidden;
-  
-}
+
 
 
 .container {
